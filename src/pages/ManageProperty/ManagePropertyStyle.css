@@ -1,0 +1,57 @@
+#managepost {
+  max-width: 800px; /* Restrict the maximum width for better readability */
+  margin: 0 auto;
+  padding: 20px; /* Add padding around the container */
+ 
+}
+
+#signup-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adding gap between form fields */
+}
+
+.form-field {
+  flex: 1 1 calc(50% - 20px); /* Flex property to ensure two columns */
+  min-width: calc(50% - 20px); /* Ensure each field takes half width minus the gap */
+  margin: 0; /* Remove the margin, as gap handles the spacing */
+}
+
+.button-container {
+  width: 100%; /* Ensure button container takes full width */
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px; /* Adjust padding for better appearance */
+    border: none;
+    width: 40%;
+    background-color: teal;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+  background-color: #004d40; 
+}
+
+.change-file{
+  margin: 10px;
+  width: 45px;
+}
+.header {
+  font-size: 24px; 
+  color: #00796b; 
+  margin-bottom: 20px;
+  text-align: center; 
+}
+
+.showCurrentImage {
+  font-size: 16px;
+  width: 100%; /* Ensure it takes full width */
+  margin: 15px 0; /* Spacing from other elements */
+  color: #555; /* Darker color for better readability */
+  text-align: center; /* Center the text */
+}

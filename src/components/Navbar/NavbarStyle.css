@@ -1,0 +1,57 @@
+/* NavBar.css */
+
+.custom-navbar {
+    background-color: #008080;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    margin-right: 15px;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffd700; 
+}
+
+.active-link {
+    color: #ffd700; 
+}
+
+.nav-dropdown {
+    color: white;
+}
+
+.signed-as{
+    cursor: none;
+}
+
+.nav-dropdown .dropdown-menu {
+    background-color: #008080; 
+    border: none;
+}
+
+.nav-dropdown .dropdown-item {
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.nav-dropdown .dropdown-item:hover {
+    background-color: #006666; 
+}
+
+
+
+.navbar-text {
+    color: white;
+    margin-left: 15px;
+}

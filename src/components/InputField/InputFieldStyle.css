@@ -1,0 +1,22 @@
+   .input-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .input-field label {
+    margin-bottom: 5px;
+  }
+  
+  .input-field input,
+  .input-field select {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+  }
+  
+  .input-field select {
+    background-color: white;
+    cursor: pointer;
+  }
+  
