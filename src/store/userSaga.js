@@ -9,7 +9,7 @@ import {
   loginFailure,
 } from "./userRedux";
 
-let API_URL = "http://localhost:3002/api";
+let API_URL = "https://rentifybackend.adaptable.app/api";
 
 export function* userSignUpSaga({ payload }) {
   yield put(signUpStart());

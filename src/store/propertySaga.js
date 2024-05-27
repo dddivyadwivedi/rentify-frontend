@@ -22,7 +22,7 @@ import {
 } from "./propertyRedux";
 import { getAccessToken } from "../utilities/utility";
 
-let API_URL = "http://localhost:3002/api";
+let API_URL = "https://rentifybackend.adaptable.app/api";
 
 export function* getAllProperties({ payload }) {
   try {
